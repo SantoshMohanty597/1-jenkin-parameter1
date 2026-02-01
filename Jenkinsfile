@@ -27,7 +27,7 @@ pipeline {
                         echo 'Try Commit Deploying to Development environment...'
                         // Add your deployment commands for dev here
                     } else if (params.ENVIRONMENT == 'qa') {
-                        echo 'Deploying to QA environment...'
+                        echo 'Try Commit Deploying to QA environment...'
                         // Add your deployment commands for qa here
                     } else if (params.ENVIRONMENT == 'prod') {
                         echo 'Deploying to Production environment...'
