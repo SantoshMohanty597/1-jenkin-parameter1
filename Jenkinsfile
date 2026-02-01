@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     if (params.ENVIRONMENT == 'dev') {
-                        echo 'Deploying to Development environment...'
+                        echo 'Try Commit Deploying to Development environment...'
                         // Add your deployment commands for dev here
                     } else if (params.ENVIRONMENT == 'qa') {
                         echo 'Deploying to QA environment...'
